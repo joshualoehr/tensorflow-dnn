@@ -1,0 +1,21 @@
+Josh Loehr & Nick Majeske -- CSCI 497E/571 -- Prog2 -- plan.txt
+
+1. A one paragraph summary of the program in your own words. What is being asked of you? What will you implement in this assignment?
+
+    We are to build a standard, general-purpose neural network, the structure of which is almost entirely determined by hyperparameters passed in as script arguments. We should support both single layer and arbitrarily deep neural networks, regression and classification, with minibatch training for multiple optimization algorithms. We will also implement an optional verbose mode, which will output training and dev set performance after each update. This is to be a pair programming assignment, so we will meet to collaborate on the Tensorflow code using the driver/navigator method. Revision history will be tracked through Git.
+
+2. Your thoughts (a few sentences) on what you anticipate being the most challenging aspect(s) of the assignment.
+
+    We anticipate the most challenging aspect to be properly setting up the Tensorflow graph such that backpropagation will work. Additionally, recalling the specifics of Tensorflow with regards to feeding in and retrieving variables from the graph might be difficult at first. Finally, setting the code up to be sufficiently flexible for all possible hyperparameter configurations could be challenging.
+
+3. Which parts of the program you intend to complete (you are not bound by this later).
+
+    We will complete the entire assignment.
+
+4. Your plan for meeting to finish the assignment (e.g. MWF from 5-7pm and R 1pm-5pm until the assignment is complete).
+   
+    We can meet MTRF 1-3pm consistently as needed, and we plan to work remotely via Skype if necessary.
+
+5. A list of at least three resources you plan to draw from if you get stuck on something.
+
+    Brian Hutchinson, Tensorflow documentation, MNIST Tensorflow tutorial.
